@@ -1,0 +1,6 @@
+CREATE TABLE users (
+  id SERIAL PRIMARY KEY,
+  avatar VARCHAR NOT NULL, 
+  name VARCHAR NOT NULL,
+  verified BOOLEAN NOT NULL
+);

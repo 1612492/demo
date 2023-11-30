@@ -1,0 +1,1 @@
+DELETE FROM nfts WHERE id > 0;
