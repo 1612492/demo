@@ -2,25 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.nav-link {
-  @apply font-medium uppercase;
-  position: relative;
-  cursor: pointer;
+::-webkit-scrollbar {
+  @apply h-1 w-1;
 }
 
-.nav-link:hover {
-  background: linear-gradient(91.47deg, #da458f -6%, #da34dd 113.05%);
-  background-clip: text;
-  -webkit-background-clip: text;
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-yellow;
+}
+
+.text-fill-transparent {
   -webkit-text-fill-color: transparent;
-}
-
-.nav-link::after {
-  @apply absolute right-0 top-6 h-1 w-0 rounded transition-all;
-  content: '';
-  background: linear-gradient(91.47deg, #da458f -6%, #da34dd 113.05%);
-}
-
-.nav-link:hover::after {
-  @apply left-0 w-full;
 }

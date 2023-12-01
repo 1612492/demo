@@ -44,7 +44,7 @@ INSERT INTO nfts VALUES (43, 'http://localhost:4000/static/neon_guy.png', 'Neon 
 INSERT INTO nfts VALUES (44, 'http://localhost:4000/static/assassin.png', 'Assassin', 2.75, 'Common', 'Tier 5', 'Theme 1', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
 INSERT INTO nfts VALUES (45, 'http://localhost:4000/static/mafia_england.png', 'Mafia England', 2.75, 'Legendary', 'Tier 1', 'Theme 5', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
 INSERT INTO nfts VALUES (46, 'http://localhost:4000/static/basketball_girl.png', 'Basketball Girl', 2.75, 'Mythic', 'Tier 2', 'Theme 4', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 1);
-INSERT INTO nfts VALUES (47, 'http://localhost:4000/static/the_dj.png', 'The DJ', 2.75, 'Epic', 'Tier 3', 'Theme 3', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
+INSERT INTO nfts VALUES (47, 'http://localhost:4000/static/the_dj.png', 'The DJ', 2.75, 'Epic', 'Tier 3', 'Theme 3', '2023-11-30 09:44:41.84515', '2023-11-30 08:44:41.84515', 2);
 INSERT INTO nfts VALUES (48, 'http://localhost:4000/static/basketball_girl.png', 'Basketball Girl', 2.75, 'Mythic', 'Tier 2', 'Theme 4', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 1);
 INSERT INTO nfts VALUES (49, 'http://localhost:4000/static/assassin.png', 'Assassin', 2.75, 'Common', 'Tier 5', 'Theme 1', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
 INSERT INTO nfts VALUES (50, 'http://localhost:4000/static/neon_guy.png', 'Neon Guy', 2.75, 'Rare', 'Tier 4', 'Theme 2', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
@@ -58,10 +58,10 @@ INSERT INTO nfts VALUES (57, 'http://localhost:4000/static/mafia_england.png', '
 INSERT INTO nfts VALUES (58, 'http://localhost:4000/static/basketball_girl.png', 'Basketball Girl', 2.75, 'Mythic', 'Tier 2', 'Theme 4', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 1);
 INSERT INTO nfts VALUES (59, 'http://localhost:4000/static/the_dj.png', 'The DJ', 2.75, 'Epic', 'Tier 3', 'Theme 3', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
 INSERT INTO nfts VALUES (60, 'http://localhost:4000/static/basketball_girl.png', 'Basketball Girl', 2.75, 'Mythic', 'Tier 2', 'Theme 4', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 1);
-INSERT INTO nfts VALUES (61, 'http://localhost:4000/static/the_dj.png', 'The DJ', 2.75, 'Epic', 'Tier 3', 'Theme 3', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
-INSERT INTO nfts VALUES (62, 'http://localhost:4000/static/assassin.png', 'Assassin', 2.75, 'Common', 'Tier 5', 'Theme 1', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
-INSERT INTO nfts VALUES (63, 'http://localhost:4000/static/neon_guy.png', 'Neon Guy', 2.75, 'Rare', 'Tier 4', 'Theme 2', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
-INSERT INTO nfts VALUES (64, 'http://localhost:4000/static/assassin.png', 'Assassin', 2.75, 'Common', 'Tier 5', 'Theme 1', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
+INSERT INTO nfts VALUES (61, 'http://localhost:4000/static/the_dj.png', 'The DJ', 10, 'Epic', 'Tier 3', 'Theme 3', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
+INSERT INTO nfts VALUES (62, 'http://localhost:4000/static/assassin.png', 'Assassin', 10, 'Common', 'Tier 5', 'Theme 1', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
+INSERT INTO nfts VALUES (63, 'http://localhost:4000/static/neon_guy.png', 'Neon Guy', 10, 'Rare', 'Tier 4', 'Theme 2', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
+INSERT INTO nfts VALUES (64, 'http://localhost:4000/static/assassin.png', 'Assassin', 10, 'Common', 'Tier 5', 'Theme 1', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
 INSERT INTO nfts VALUES (65, 'http://localhost:4000/static/mafia_england.png', 'Mafia England', 2.75, 'Legendary', 'Tier 1', 'Theme 5', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
 INSERT INTO nfts VALUES (66, 'http://localhost:4000/static/basketball_girl.png', 'Basketball Girl', 2.75, 'Mythic', 'Tier 2', 'Theme 4', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 1);
 INSERT INTO nfts VALUES (67, 'http://localhost:4000/static/the_dj.png', 'The DJ', 2.75, 'Epic', 'Tier 3', 'Theme 3', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
@@ -75,6 +75,6 @@ INSERT INTO nfts VALUES (74, 'http://localhost:4000/static/assassin.png', 'Assas
 INSERT INTO nfts VALUES (75, 'http://localhost:4000/static/neon_guy.png', 'Neon Guy', 2.75, 'Rare', 'Tier 4', 'Theme 2', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
 INSERT INTO nfts VALUES (76, 'http://localhost:4000/static/assassin.png', 'Assassin', 2.75, 'Common', 'Tier 5', 'Theme 1', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
 INSERT INTO nfts VALUES (77, 'http://localhost:4000/static/mafia_england.png', 'Mafia England', 2.75, 'Legendary', 'Tier 1', 'Theme 5', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
-INSERT INTO nfts VALUES (78, 'http://localhost:4000/static/basketball_girl.png', 'Basketball Girl', 2.75, 'Mythic', 'Tier 2', 'Theme 4', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 1);
-INSERT INTO nfts VALUES (79, 'http://localhost:4000/static/the_dj.png', 'The DJ', 2.75, 'Epic', 'Tier 3', 'Theme 3', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 2);
-INSERT INTO nfts VALUES (80, 'http://localhost:4000/static/basketball_girl.png', 'Basketball Girl', 2.75, 'Mythic', 'Tier 2', 'Theme 4', '2023-11-30 08:44:41.84515', '2023-11-30 08:44:41.84515', 1);
+INSERT INTO nfts VALUES (78, 'http://localhost:4000/static/basketball_girl.png', 'Basketball Girl', 2.75, 'Mythic', 'Tier 2', 'Theme 4', '2023-11-30 09:44:41.84515', '2023-11-30 08:44:41.84515', 1);
+INSERT INTO nfts VALUES (79, 'http://localhost:4000/static/the_dj.png', 'The DJ', 2.75, 'Epic', 'Tier 3', 'Theme 3', '2023-11-30 09:44:41.84515', '2023-11-30 08:44:41.84515', 2);
+INSERT INTO nfts VALUES (80, 'http://localhost:4000/static/basketball_girl.png', 'Basketball Girl', 2.75, 'Mythic', 'Tier 2', 'Theme 4', '2023-11-30 09:44:41.84515', '2023-11-30 08:44:41.84515', 1);

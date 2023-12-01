@@ -9,15 +9,11 @@
     "jsx": "react-jsx",
     "strict": true,
     "paths": {
-      "@assets/*": [
-        "./src/assets/*"
-      ],
-      "@components/*": [
-        "./src/components/*"
-      ]
+      "@assets/*": ["./src/assets/*"],
+      "@components/*": ["./src/components/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@utils/*": ["./src/utils/*"]
     }
   },
-  "include": [
-    "src"
-  ],
+  "include": ["src"]
 }

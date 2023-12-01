@@ -7,8 +7,21 @@ export default {
       white: '#fff',
       pink: '#da458f',
       purple: '#da34dd',
+      fuchsia: '#8F2F73',
+      yellow: '#ffcc21',
+      'gray-700': '#334155',
+      'gray-800': '#1f2937',
     },
     extend: {
+      container: {
+        screens: {
+          sm: '100%',
+          md: '100%',
+          lg: '100%',
+          xl: '1280px',
+          '2xl': '1356px',
+        },
+      },
       fontFamily: {
         body: 'Inter, sans-serif',
       },
@@ -16,10 +29,13 @@ export default {
         img: "url('/assets/bg.png')",
         banner: "url('/assets/banner.png')",
         bottom: "url('/assets/bottom.png')",
+        ribbon: "url('/assets/ribbon.png')",
       },
       backgroundColor: {
         transparent: 'transparent',
         primary: '#17161a',
+        header: 'rgb(23, 22, 26)',
+        menu: 'rgb(58, 56, 65)',
         card: 'rgba(58, 56, 65, 0.6)',
       },
       textColor: {

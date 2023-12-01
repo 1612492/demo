@@ -29,14 +29,14 @@ export enum PriceOrder {
 }
 
 export type NFTQuery = {
-  keyword: string;
-  category: string;
-  tier: string;
-  theme: string;
-  from_price: number;
-  to_price: number;
-  time_order: TimeOrder;
-  price_order: PriceOrder;
-  offset: number;
-  limit: number;
+  keyword?: string;
+  category?: string;
+  tier?: string;
+  theme?: string;
+  fromPrice?: number;
+  toPrice?: number;
+  timeOrder?: TimeOrder;
+  priceOrder?: PriceOrder;
+  offset?: number;
+  limit?: number;
 };

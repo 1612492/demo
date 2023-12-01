@@ -2,7 +2,8 @@ import pool from '../db';
 import { NFT, NFTQuery, PriceOrder, TimeOrder } from '../types';
 
 export async function getAll(params: NFTQuery) {
-  let query: string = 'SELECT * FROM nfts, users';
+  let query: string =
+    'SELECT nfts.id as id, nfts.name as name, uri, price, category, tier, theme, created_at, avatar as owner_avatar, users.name as owner_name, verified as verified_owner FROM nfts, users';
   const conditions: string[] = [];
   const orders: string[] = [];
 
@@ -14,19 +15,19 @@ export async function getAll(params: NFTQuery) {
 
   if (params?.theme) conditions.push(`theme ILIKE '${params.theme}'`);
 
-  if (params?.from_price) conditions.push(`price > ${params.from_price}`);
+  if (params?.fromPrice) conditions.push(`price > ${params.fromPrice}`);
 
-  if (params?.to_price) conditions.push(`price < ${params.to_price}`);
+  if (params?.toPrice) conditions.push(`price < ${params.toPrice}`);
 
   query +=
     ` WHERE nfts.owner_id = users.id` +
     (conditions.length > 0 ? ` AND ${conditions.join(' AND ')}` : '');
 
-  if (params?.price_order)
-    orders.push(`price ${params.price_order === PriceOrder.Desc ? 'DESC' : 'ASC'}`);
+  if (params?.priceOrder)
+    orders.push(`price ${params.priceOrder === PriceOrder.Desc ? 'DESC' : 'ASC'}`);
 
-  if (params?.time_order)
-    orders.push(`created_at ${params.time_order === TimeOrder.Desc ? 'DESC' : 'ASC'}`);
+  if (params?.timeOrder)
+    orders.push(`created_at ${params.timeOrder === TimeOrder.Desc ? 'DESC' : 'ASC'}`);
 
   if (orders.length > 0) query += ' ORDER BY ' + orders.join(', ');
 
