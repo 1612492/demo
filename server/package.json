@@ -7,8 +7,8 @@
     "dev:ts": "ts-node ./src/app.ts",
     "build": "tsc",
     "start": "node ./dist/app.js",
-    "db:up": "db-migrate up",
-    "db:down": "db-migrate reset",
+    "migrate:up": "db-migrate up",
+    "migrate:down": "db-migrate reset",
     "lint": "eslint . --ext ts",
     "format": "prettier --ignore-unknown --write ."
   },
